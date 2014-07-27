@@ -56,7 +56,7 @@ cacheSolve <- function(x, ...) {
                                 }
                         )
         
-        ## Store xinverse in CacheMatrix and return value
+        ## Store xinverse in CacheMatrix and return xinverse value
         CacheMatrix$setinverse(xinverse)
         xinverse
         
